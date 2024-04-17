@@ -1,7 +1,7 @@
 package Class
 
 
-class FistClass(mName: String = "Tosbik", mAge: Int = 10, mEyeColor: String = "bir", isMale: Boolean = false) {
+class FistClass(mName: String = "Tosbik", mAge: Int = 10, mEyeColor: String = "bir", isMale: Boolean = false):Any(){
 
     /*
     Kotlin de 2 farklı tür constructor vardır.
@@ -28,6 +28,12 @@ class FistClass(mName: String = "Tosbik", mAge: Int = 10, mEyeColor: String = "b
     Secondary Constructor
      */
 
+
+// Instance'ı oluşturulamayan class
+//    class AA private constructor(){
+//
+//    }
+// val a = AA() --- Hata verir
 }
 
 fun main() {
@@ -60,6 +66,9 @@ fun main() {
     Kotlinde bütün yapılar default parametresi public olarak bulunur.
     Java'da ise tam tersi private'dır.
 
+
+       Her Class Any class'ından miras alır.
+       Any class'ın içinde bulunan 3 metotu override edebilir.Tosting,equals,hashCode
 
     public --> Her yerden erişebilir
     private--> Üye değişkenlerin class'ın dışından erişilmesini engeller (get ve set metotları private olduğu için  erişemeyiz.)
