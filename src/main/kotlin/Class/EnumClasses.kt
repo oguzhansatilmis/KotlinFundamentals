@@ -1,4 +1,3 @@
-package Class
 /*
     -Enum class'lar belirli verileri gruplandırmamıza yarar.
     -Enum classlardaki değeler enum class'ı miras alın bir static class olarak bulunur.(Üst class'a implment ettiğimiz interface'yi)

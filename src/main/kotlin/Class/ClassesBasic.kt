@@ -1,4 +1,4 @@
-package Class
+
 
 
 class FistClass(mName: String = "Tosbik", mAge: Int = 10, mEyeColor: String = "bir", isMale: Boolean = false):Any(){
