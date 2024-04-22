@@ -11,7 +11,7 @@ fun main() {
      result.number
 
     /*
-    Typealis kullanım örnek
+    Typealias kullanım örnek
      */
 
     val typeAliasExample = a()
